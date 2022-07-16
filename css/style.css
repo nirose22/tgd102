@@ -1,82 +1,71 @@
-@import url(/css/reset.css);
+@import url(./reset.css);
 
 
 body{
 	background-color: #FFF5E6;
 	font-family: 'Noto Sans TC';
-	
-
 }
 
 .wrapper {
 	background-color: #E64B38;
-	/* width: 100vw */
+
 
 }
 /* ,menu */
 .header-menu {
 	display: flex;
 	position: absolute;
-	height: 50px;
-	width: 55vw;
+	height: 80px;
+	width: 750px;
 	right: 0px;
-	padding: 2vh;
-	align-items: center;
-}
+	align-items: center; }
+	
 
 
 .header-menu li{
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 	flex-grow:1;
 }
 
 .header-menu a {
-	
+	display: block;
+	line-height: 80px;
+	width: 100%;
 	font-size: .95em;
-	align-items: center;
+	text-align: center;
 	color: #FFFFFF;
-	text-decoration: none;}
+	text-decoration: none;
+	transition: .2s ease-out;}
 	
 
 	.header-icon {
-		margin-left: 40px;
+		margin-left:1px;
 		display: inline-flex;
 		
+		width: 50px;
 	}
-
-	.header-icon svg {
-		width: 22px;
-		margin-right: 20px;
-
-	}
-
 
 .header-menu a:hover {
-	
+	box-sizing: border-box;
 	display: inline-block;
-  	padding: 1em 0;
-  	border-radius: 0;
-	color: #b2876f;
+	background: #d34936;
   	font-weight: bold;
   	letter-spacing: 2px;
   	text-transform: uppercase;
-  	text-decoration: none;
 	position: relative;
+	transition: .2s ease-out;
+
 }
 
-/* ------------- part 樣式------------- */
+/* ------------- part 標題樣式------------- */
 
 .part-title{
-
-	flex-direction: column;
-    
+	flex-direction: column;  
     width: 250px;
     height: 200px;
 	color: #E64B38;
 	z-index: 20;
-  
 }
-
 
 .part-title .colunme-line {
 		content: '';
@@ -100,7 +89,7 @@ body{
 	}
 
 .part-title h1{
-	font-size: 62.4px;
+	font-size: 50px;
 	font-family: "Sarabun";
 	padding:40px 0 20px 40px;	
 }
@@ -113,9 +102,78 @@ body{
 	padding-left: 40px;
 }
 
+/* ------------------------排版樣式-------------------------*/
 
+.print__link{
+	/* position:relative; */
+	display:block;
+	background-color:#fff;
+	border-radius:20px;
+	border-top:2px solid #E64B38;
+	border-right:2px solid #E64B38;
+	border-bottom:2px solid #E64B38;
+	border-left:2px solid #E64B38;
+	box-shadow:5px 5px  #E64B38;
+	transform:translate(0,0);
+	transition:all .2s cubic-bezier(.15,.62,.43,.8);
+	padding:10px 10px 11px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+.print__image{
+	display: block;
+	width: 100%;
+	border-radius:12px;
+	transition:transform .4s cubic-bezier(.15,.62,.43,.8)}
+	
+
+
+
+/*------------ 字型樣式 ------------*/
+
+h4{ 
+	font-family: 'Noto Sans';
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 45px;
+	color: #000000;
+}
+
+.line1 {
+	content:'';
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+	border: 2px solid;
+	color:#E64B38;
+}
+	
+/* --------date-------- */
+
+
+.date_box {
+	display: flex;
+	margin: 10px;
+	margin-left: 27px;
+	color: #E64B38;}
+
+    .date_box .year{
+        font-size: 0.9375rem;
+        font-family: 'FuturaPT-Light','微軟正黑體';
+    }
+    .date_box .date{
+        font-size: 1.575rem;
+        font-family: 'MyriadPro-Regular','微軟正黑體';
+    }
+    .date_box .date_line {
+        background-color: #E64B38;
+        width: 43px;
+        height: 2px;
+        margin: 50px 10px 0 10px;
+    }
+        
 /* ------part 標題位置------- */
-
 
 .part-title1{
 	text-align: left;
@@ -124,18 +182,10 @@ body{
 	color: #000000;
 }
 
-
 .part-title2{
 	text-align: left;
 	position: relative;
 	margin-left: 13%;
-	color: #000000;
-}
-
-.part-title3{
-	text-align: left;
-	position: relative;
-	margin-left: 20%;
 	color: #000000;
 }
 
@@ -149,36 +199,16 @@ body{
 }
 
 
-/*------------ 字型樣式 ------------*/
-
-h4{ 
-	font-family: 'Noto Sans';
-	font-weight: 600;
-	font-size: 23px;
-	line-height: 45px;
-	text-align: center;
-	color: #000000;
-	margin-top: 15px;
-}
-
-
 /* ------------首頁圖 ------------*/
 
 main {
 	height: 945px ;
-	width: 100%;
-	overflow: hidden; 
-	 /* 遮住 */
+	
+	max-width: 100%;
+	background: #E64B38;
+	position: relative;
+    overflow: hidden;}
 
-	 /* order:1 */
-	 
-	                                                                    
-}
-
-/* .logo-line {
-
-	width: 100%;
-} */
 
 .logo-line {
 	position: absolute;
@@ -231,7 +261,6 @@ main {
 	top: 624px;
 }
 
-
 .summary{
 	display: block;
 	position: absolute;
@@ -255,14 +284,11 @@ main {
 	background-color:#FFF5E6;
 	max-width: 1200px;
 	position: relative;
-	/* box-sizing: border-box; */
     padding: 0 5%;
 	height: 900px;
     margin: 0 auto 60px;
-	/* order: 2; */
+	
 }
-
-
 
 /* illust1------ */
 
@@ -370,97 +396,210 @@ li .text{
 	height: 950px;
 	/* overflow: hidden; */
 }
-.exhibi_inner{
-	padding: 3vh 0px 0px 21vw;
+.exhibi_large{
+	padding: 10px 0px 0px 35%;
 	position: relative;
 }
 .exhibi{
 	display: inline-flex;
-	padding-top: 39px;
 	
-	
-	}
+}
 
-.exhibi li img{
-	display: block;
-	width: 100%;
-	border-radius:12px;
-	transition:transform .4s cubic-bezier(.15,.62,.43,.8)}
-	
+.exhibi li{
+		height: 550px;
+		width: 290px;
+		flex-grow:1;
+		}
 
-h4{ 
-	font-family: 'Noto Sans';
-	font-weight: 600;
-	font-size: 23px;
-	line-height: 45px;
+
+.exhibi .print__image{	
+	border-radius:12px;}
+
+
+.exhibi h4{ 
 	text-align: center;
-	color: #000000;
 	margin-top: 15px;
 }
 
-.exhibi li .date_box {
-	display: flex;
-	margin-left: 27px;
-	color: #E64B38;
+.exhibi .date_box {
+
 }
 .exhibi .line1 {
-	content:'';
-	display: block;
-	border: 2px solid #E64B38;
-	width: 95%;
-	margin: 0 auto;
+
 }
-.exhibi li .year{
-	font-size: 0.9375rem;
-    font-family: 'FuturaPT-Light','微軟正黑體';
-}
-.exhibi li .date{
-    font-size: 1.875rem;
-    font-family: 'MyriadPro-Regular','微軟正黑體';
-}
-.exhibi li .line2 {
-	background-color: #E64B38;
-    width: 43px;
-    height: 2px;
-    margin: 50px 10px 0 10px;
-}
-.exhibi li{
-	height: 550px;
-	width: 290px;
-    padding: 10px 10px 0;
-}
-.print__link{
-	position:relative;
-	display:block;
-	background-color:#fff;
-	border-radius:20px;
-	border-top:2px solid #E64B38;
-	border-right:2px solid #E64B38;
-	border-bottom:2px solid #E64B38;
-	border-left:2px solid #E64B38;
-	box-shadow:4px 4px  #E64B38;
-	transform:translate(0,0);
-	transition:all .2s cubic-bezier(.15,.62,.43,.8);
-	padding:22px 22px 0;
-	height:100%;
-	margin-right: 20px;
-	text-decoration: none;
-}
-/* ---------------------------part3----------------------------- */
-
-
-
-
-
-
-
-/*------------------arrow-------------------- */
-
-.arrow-wrap{
+.exhibi_large .arrow-wrap{
 	position:absolute;
-	bottom: 18px;
+	bottom: 30px;
 	right: 29px;	
 }
+
+/* ---------------------------part3----------------------------- */
+
+.part3{
+	max-width: 1200px;
+	height: 1000px;
+	margin: 0 auto;
+		
+}
+
+.part-title3{
+	text-align: left;
+	position: relative;
+	margin-left: 10%;
+	color: #000000;
+}
+
+.workshop_large{
+	margin:0 auto;
+	width: 85%;
+}
+
+.workshop_large .print__link{
+	margin-bottom: 20px;
+}
+
+.workshop_large li{
+	display: inline-flex;
+	flex-direction: row;
+	box-sizing: border-box;
+}
+
+.date_box_row{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: flex-end; 
+	margin-left: 12px; 
+}
+
+.workshop_large .print__image{
+	width: 50%;
+}
+
+.text_frame{
+ 	padding:45px 0 0 30px;
+}
+
+.date_box_row .date_line {
+	background-color: #5A5657; 
+    width: 43px;
+    height: 2px;
+    margin: 0 10px;
+    }
+
+.date_box_row .date_box{
+	color: #5A5657;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.time {
+	font-size: 20px;
+	color:#5A5657;
+	font-family: 'Futura Lt BT';
+	padding-left:20px ;
+	line-height: 20px;
+}
+.workshop_large .arrow-wrap{
+		position:absolute;
+		bottom: 50px;
+		right: 60px;	
+}
+
+ .more_btn {
+	/* Read More */
+	font-size: 20px;
+	font-weight: 500;
+	color: #FFFFFF;
+	display: block;
+	margin: 28px auto;
+	width: 190px;
+	background-color: #E64B38;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 55px;
+	text-decoration: none;
+	
+	border: 2px solid #5A5657;
+	border-right:5px solid #5A5657;
+	border-bottom:5px solid #5A5657;
+	border-radius: 13px;
+	}
+
+	.more_btn:hover{
+		border: 2px solid #5A5657;
+
+	}
+
+
+/* ---------------------------part4----------------------------- */
+
+.part4{
+	max-width: 1200px;
+	height: 1000px;
+	margin: 0 auto;
+		
+}
+
+.part-title4{
+	text-align: left;
+	position: relative;
+	margin-left: 10%;
+	color: #000000;
+}
+
+.interview_large{
+	padding: 30px 5%;}
+
+
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:350px auto ;
+}
+
+	.date_box-small{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: -12%;
+	top: 10.81%;
+	width: 70px;
+	height: 75px;
+	background: #FFFFFF;
+	border: 2px solid #E64B38;
+	border-right:4px solid #E64B38;
+	border-bottom:4px solid #E64B38;
+	border-radius: 13px;
+	}
+
+	.date_box-small .date_line{
+		display: block;
+		background-color: #5A5657; 
+		width: 100%;
+		height: 2px;
+		margin: 4px 0;
+		/* padding-left: 10px; */
+		
+		}
+	
+		
+.interview_large .arrow-wrap{
+	position:absolute;
+	bottom: 20px;
+	right: 30px;	
+}
+
+
+
+/*------------------arrow--------------------------------------------------- */
+
+	.arrow-wrap{}
 		.c-arrow{
 			position:relative;
 			left:15px;
@@ -485,7 +624,7 @@ h4{
 			position:absolute;top:0;left:0;
 			width:36px;
 			height:36px;
-			overflow:visible;
+			/* overflow:visible; */
 			transform:rotate(-90deg);
 			transition:all .25s .25s cubic-bezier(.15,.62,.43,.8)}
 		.c-arrow .circle circle{
@@ -508,8 +647,8 @@ h4{
 			.c-arrow{transform:scale(.7)}
 
 /* 陰影 */
-			@media screen and (min-width:801px){
-				.print__link:hover{box-shadow:0 0;transform:translate(3px,3px)}}
+		@media screen and (min-width:801px){
+			 .print__link:hover{box-shadow:0 0;transform:translate(3px,3px)}}
 
 			
 /* 按鈕 */
@@ -519,40 +658,41 @@ h4{
 					.print__link .c-arrow:before{top:calc(50% - 1px)}
 
 		@media screen and (min-width:801px){
-						.print__link:hover .c-arrow:before{
-						transform:translate(0,0);
-						transition:all .2s .2s cubic-bezier(.15,.62,.43,.8)}
-						.print__link:hover .c-arrow .arrow{
-						transform:rotate(45deg) translate(2px,-2px);
-						transition:all .15s .28s cubic-bezier(.15,.62,.43,.8)}
-						.print__link:hover .c-arrow .circle{
-						transform:rotate(-2deg);
-						transition:all .2s cubic-bezier(.15,.62,43,.8)}
-						.print__link:hover .c-arrow .circle circl	{stroke-dasharray:0 105.76px;transition:all .2s cubic-bezier(.15,.62,43,.8)}
-
-
-			.print__link:hover .print__image ,
-				.print__link:hover .c-news__image img{
-											transform:scale(1);
-											transition:transform .6s cubic-bezier(.15,.62,.43,.8)}}
-					.c-news__time{
-										position:absolute;top:48px;left:-15px;border:2px solid #221817;
-										border-radius:10px;
-										background-color:#fff;padding:15px 4px;z-index:3}
-					@media screen and (max-width:800px)
-												{.c-news__time{border-radius:5px}}
-												
+					.print__link:hover .c-arrow:before{
+					transform:translate(0,0);
+					transition:all .2s .2s cubic-bezier(.15,.62,.43,.8)}
 					.print__link:hover .c-arrow .arrow{
 					transform:rotate(45deg) translate(2px,-2px);
 					transition:all .15s .28s cubic-bezier(.15,.62,.43,.8)}
 					.print__link:hover .c-arrow .circle{
-						transform:rotate(-2deg);
-						transition:all .2s cubic-bezier(.15,.62,.43,.8)}
+					transform:rotate(-2deg);
+					transition:all .2s cubic-bezier(.15,.62,43,.8)}
+					.print__link:hover .c-arrow .circle circl	{stroke-dasharray:0 105.76px;transition:all .2s cubic-bezier(.15,.62,43,.8)}
+            	    .print__link:hover .print__image ,
+					.print__link:hover .c-news__image img{
+					transform:scale(1);
+					transition:transform .6s cubic-bezier(.15,.62,.43,.8)}}
+					.c-news__time{
+					position:absolute;top:48px;left:-15px;border:2px solid #221817;
+					border-radius:10px;
+					background-color:#fff;padding:15px 4px;z-index:3}
+
+
+		@media screen and (max-width:800px){.c-news__time{border-radius:5px}}							
+					.print__link:hover .c-arrow .arrow{
+					transform:rotate(45deg) translate(2px,-2px);
+					transition:all .15s .28s cubic-bezier(.15,.62,.43,.8)}
+					.print__link:hover .c-arrow .circle{
+					transform:rotate(-2deg);
+					transition:all .2s cubic-bezier(.15,.62,.43,.8)}
 					.print__link:hover .c-arrow .circle circle{
-								stroke-dasharray:0 105.76px; transition:all .2s cubic-bezier(.15,.62,.43,.8)}
+					stroke-dasharray:0 105.76px; transition:all .2s cubic-bezier(.15,.62,.43,.8)}
 					.print__link:hover img{
-								transform:scale(0.98);
-								transition:transform .4s cubic-bezier(.15,.62,.43,.8)}
+					transform:scale(0.98);
+					transition:transform .4s cubic-bezier(.15,.62,.43,.8)}
+
+
+
 	
 	
 
