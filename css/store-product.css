@@ -249,16 +249,13 @@ margin-top: 30px;}
         }
 
         .text {
-            position: absolute;
+            position: relative;
             width: 450px;
-            bottom: -1000px;
+           top: -103px;
             display: block;
             align-content: space-around;
 } 
-@media screen and (max-width:1500px){
-    .text {
-       
-        bottom: -1068px;}}
+
 
 .text p{
     font-size: 16px;
