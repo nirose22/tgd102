@@ -5,8 +5,7 @@
 
 body{
 	background-color: #FFF5E6;
-	font-family: 'Noto Sans TC', sans-serif;
-	font-family: 'Sarabun', sans-serif;
+	font-family: 'Noto Sans TC';
 	
 
 }
@@ -26,15 +25,11 @@ body{
 
 .header-menu a:hover {
 	
-
-  	padding: 1em 0;
-  	border-radius: 0;
+	display: inline-block;
 	color: #b2876f;
   	font-weight: bold;
-  	letter-spacing: 2px;
   	text-transform: uppercase;
   	text-decoration: none;
-	position: relative;
 	z-index: 99;
 }
 
@@ -72,7 +67,7 @@ h1{
 h4{ 
 	font-family: 'Noto Sans';
 	font-weight: 500;
-	font-size: 1.21em;
+	font-size: 1.21px;
 	line-height: 45px;
 	letter-spacing: 0.04em;
 	color: #000000;
@@ -360,17 +355,9 @@ main {
 }
 .exhibi_large{
 	padding-top:5vh;
-	padding-left:28vw;
+	padding-left:15%;
 	position: relative;
 }
-
-@media screen and (max-width:1600px){
-	.exhibi_large{
-		padding-top:5vh;
-		padding-left:15%;
-		position: relative;
-	}}
-
 .exhibi{
 	display: inline-flex;
 	
