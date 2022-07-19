@@ -5,8 +5,9 @@
 
 body{
 	background-color: #FFF5E6;
-	font-family: 'Noto Sans TC', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-family: 'Sarabun', sans-serif;
+	
 	
 
 }
@@ -604,7 +605,7 @@ main {
 
 
 
-.backgroud{
+.background3{
 		position: fixed;
 		right:1%;
 		left: auto;

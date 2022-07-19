@@ -3,6 +3,8 @@
 body{
 	background-color: #FFF5E6;
 	font-family: "Sarabun""noto sans";
+	font-family: 'Noto Sans ', sans-serif;
+font-family: 'Sarabun', sans-serif;
 	
 	
 }
@@ -10,8 +12,7 @@ body{
 .wrapper{
 	
 }
-
-.bg{
+.background3{
 	position: fixed;
 	right:1%;
 	left: auto;
@@ -20,7 +21,6 @@ body{
 	opacity: 10%;
 	z-index: -99;
 } 
-
 .header-menu a {
 	line-height:100px;
 	width: 100%;
@@ -191,6 +191,7 @@ h5{
 
 	
 		.more_btn {
+			
 
 			font-size: 20px;
 			font-weight: 500;
