@@ -2,10 +2,9 @@
 
 body{
 	background-color: #FFF5E6;
-	font-family: "Sarabun""noto sans";
-	font-family: 'Noto Sans ', sans-serif;
-font-family: 'Sarabun', sans-serif;
-	
+	font-family: 'Noto Sans TC', sans-serif;
+	font-family: 'Sarabun', sans-serif;
+
 	
 }
 
@@ -48,7 +47,7 @@ h1{
 	font-family: "Sarabun";}
 
 h4{ 
-	font-family: 'Noto Sans';
+	font-family:  'Noto Sans TC', sans-serif;
 	font-weight: 500;
 	font-size: 21px;
 	line-height: 45px;
@@ -57,7 +56,7 @@ h4{
 }
 
 h5{
-	font-family: 'Noto Sans';
+	font-family:  'Noto Sans TC', sans-serif;
 	font-weight: 400;
 	font-size:1.2rem;
 	line-height: 1.7rem;
@@ -106,13 +105,13 @@ h5{
 
 .part-title h1{
 	font-size: 50px;
-	font-family: "Sarabun""noto sans";
+	font-family: "Sarabun" "noto sans TC";
 	padding-left: 40px;
 	padding-top: 40px;
 }
 
 .part-title h3{
-	font-family: 'Noto Sans';
+	font-family: 'Noto Sans TC';
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 45px;

@@ -1,7 +1,7 @@
 @import url(./reset.css);
 .body{
     width: 100%;
-    font-family: 'Noto Sans', sans-serif;
+    font-family:  'Noto Sans TC', sans-serif;
 	font-family: 'Sarabun', sans-serif;
     
 }
@@ -108,7 +108,7 @@ header{
     line-height: 1.3em;
     font-weight: 400;
     color: #E64B38;
-	font-family: "Sarabun""Noto Sans";}
+	font-family: "Sarabun""Noto Sans TC";}
 
 
 .events-title h4{ 
