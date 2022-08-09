@@ -1,562 +1,869 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/common.css">
-        <link rel="stylesheet" href="./css/style.css">
-       
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Sarabun:wght@100;200;300;500;600&display=swap" rel="stylesheet">       
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&family=Sarabun:wght@100;200;300;500;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.typekit.net/pbn4ijx.css">        
-       
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=1">
+       <!-- //fonts// -->
+       <link rel="stylesheet" href="https://use.typekit.net/pbn4ijx.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&family=Sarabun:wght@100;200;300;500;600&display=swap" rel="stylesheet">
+        <!-- style -->
+    <script charset="utf-8" type="text/javascript" src="./js/shell.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./pic/logo_icon.png">
+    <title>ART PRINT | 版藝象</title>
+</head>
 
-       
-      <title>artprint_09)luoting</title>
-    </head>
 </html>
-<body> 
-    <div class="wrapper">
-        <nav>
-           
-            <ul class="header-menu"> 
-                <li><a href="#">探索版畫</a></li>
-                <li><a href="#">藝術空間</a></li>
-                <li><a href="./events.html">展覽課程</a></li>
-                <li><a href="#">藝術專訪</a></li>
-                <li><a href="./store.html">版藝商店</a></li>
 
-                <div class="header-icon">
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
-                          </svg></a></div>
-                <div class="header-icon">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
-                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"></path>
-                      </svg>
-                    </a>
-                </div>
-            </ul>
+<body>
 
-<!-- 首頁圖 -->
-    
-        <main>
+    <!-- nav botton -->
+    <button type="button" class="shop-button">
+        <div class="bar bar2"></div>
+    </button>
 
-        <div class="logo-line">         
-            <img src="./pic/logo_m.png" alt="">
-            <div class="line-c"></div>
+    <button type="button" class="menu-button anima">
+        <div class="bar"></div>
+    </button>
+
+
+
+    <!-- 首頁圖 -->
+
+    <main id="p_index">
+
+        <!-- //main-visual -->
+
+        <div class="main-visual-inner">
+            <img src="./pic/print book.png" alt="" class="top_bigprint">
+            <div id="video-area">
+                <video src="./print_s.mp4" loop="" autoplay="" playsinline="" muted=""
+                    class="main-visual-img fade-in"></video>
+            </div>
+        </div>
+
+
+
+        <!-- clip-path: polygon(42% 8%, 0 35%, 52% 65%, 81% 30%); -->
+        <div class="top_logo">
+            <img src="./pic/logo_P.png" alt="" class="_logo">
+        </div>
+
+        <div class="top_line">
             <div class="line-r"></div>
+            <div class="line-r2"></div>
+
         </div>
-         <div class="index-print">
-            <img src="./pic/print book.png" alt="" class="bigprint">     
-                <img src="./pic/smallprint.png" alt="" class="small1">
-                <img src="./pic/smallprint2.png" alt="" class="small2">        
-            </div>
-        <div class="summary"><h2>一起探索版畫藝術的美好</h2></div>
-        <!-- BG -->
-        <div><img src="./pic/bg2.png" alt="" class='background3'></div>
-        </main>
-    </div>  
 
+        <div class="summary">
+            <h2>一起探索版畫藝術的美好</h2>
+        </div>
 
-<!------------- part1 ------------->
+    </main>
 
+    <div class="top_small_print">
+        <img src="./pic/book1.png" alt="" class="book1">
+        <img src="./pic/book2.png" alt="" class="book2">
+        <img src="./pic/book3.png" alt="" class="book3">
+        <img src="./pic/book4.png" alt="" class="book4">
+        <img src="./pic/book5.png" alt="" class="book5">
+        <img src="./pic/pen.png" alt="" class="pen1">
+        <img src="./pic/pen.png" alt="" class="pen2">
 
-
-
-           
-<section class="part1">
-
-
-
-</div>
-
-    <div class="part-title1 part-title">
-        <span class="colunme-line"> </span>
-        <span class="row-line"> </span>
-        <h1>ABOUT</h1>
-        <h3>版畫是什麼？</h3>
     </div>
-        
-    <ul class="part1-contain">
-        
-        <li>
-           <a href=""> <div class="img">
-            <img src="./pic/illu2.png" class="illust">
-            <img src="https://www.waseda.jp/prj-foodecon/wp/wp-content/themes/shimokawa/images/bg_column.svg" class="bg">
-            </div>
 
-            <div class="text">
-            <a href="#" class="btn">網版印刷</a>
-            </div></a>
-        </li>
-
-        <li>
-            <a href=""> <div class="img">
-                <img src="./pic/illu1.png" class="illust">
-                <img src="https://www.waseda.jp/prj-foodecon/wp/wp-content/themes/shimokawa/images/bg_column.svg" class="bg">
-                </div>
-    
-                <div class="text">
-                <a href="#" class="btn">凸版印刷</a>
-                </div></a>
-        </li>
-
-        <li>
-            <a href=""> <div class="img">
-            <img src="./pic/illu3.png" class="illust">
-            <img src="https://www.waseda.jp/prj-foodecon/wp/wp-content/themes/shimokawa/images/bg_column.svg" class="bg">
-            </div>
-        
-            <div class="text">
-            <a href="#" class="btn">凹版印刷</a>
-            </div></a>
-        </li>
-
-        <li>
-            <a href=""> <div class="img">
-            <img src="./pic/illu.png" class="illust">
-            <img src="https://www.waseda.jp/prj-foodecon/wp/wp-content/themes/shimokawa/images/bg_column.svg" class="bg">
-            </div>
-                
-            <div class="text">
-            <a href="#" class="btn">平版印刷</a>
-            </div></a>
-        </li>
-       
-        <svg class="circle"></svg>  
-    </ul>
-
-</section>
+    <!-- ///////////////////////******************************
+ -->
 
 
-<!------------- part2 ------------->
-
-
-<section class="part2">
-    
-    <div class="part-title2 part-title ">
-        <span class="colunme-line"> </span>
-        <span class="row-line"> </span>
-        <h1>RECENT 
-            EXHIBITION</h1>
-        <h3>近期展覽</h3>
-        </div>
-    
-
-    <article class="exhibi_large">  
-            <ul class="exhibi">
-                <a href="./events.html" class="print__link">
-                    <li>
-                        
-                        <img src="./pic/exhibi-sm2.png" alt="" class="print__image">
-                           <h4> « Plans » 春天個展</h4>
-                         <span class="line1"></span>
-                         <div class="date_box">
-                            <div class="date">
-                            <span class="year">2022</span>
-                            <p class="day">05 / 10 </p>
-                            </div>
-                            <span class="date_line"></span>
-                            <div class="date">
-                            <span class="year">2022</span>
-                            <p class="day">07 / 17 </p>
-                            </div>
+    <div class="p-top-enjoy is-serow">
+        <div class="p-top-enjoy__layout">
+            <div class="p-top-enjoy__layout-lt">
+                <div class="p-top-enjoy__layout-top">
+                    <section id="about" class="p-about l-section">
+                        <h2 class="o-title js-inview">
+                            <span class="en">ABOUT</span>
+                            <span class="cn">版畫介紹</span>
+                        </h2>
+                        <div class="about_content js-inview">
+                            <div class="rect"></div>
+                            <p>版畫製作的過程經歷了不斷的更新和發展。<br>
+                                這裡為大家介紹四種主要版畫製作的方法：</p>
                         </div>
-                        <span class="arrow-wrap">
-                            <div class="c-arrow">
-                            <svg class="circle">
-                            <circle cx="18" cy="18" r="17"></circle>
-                            </svg>
-                            <div class="arrow"></div>
-                            </div>   
-                            </span>
-                        
-                    </li>
-                    </a>
-                    
+                    </section>
+                    <div class="p-top-enjoy__nav">
+                        <div class="enjoy-btn" data-scroll-active="sp">
+                            <img src="./pic/illu2.png">
 
-                    <a href="./events.html" class="print__link">
-                        <li>
-                        <img src="./pic/exhibi-sm3.png" alt="" class="print__image">
-                        <h4>夏至日印花</h4>
-                        <span class="line1"></span>
-                        <div class="date_box">
-                           <div class="date">
-                           <span class="year">2022</span>
-                           <p class="day">06 / 21 </p>
-                           </div>
-                           <span class="date_line"></span>
-                           <div class="date">
-                           <span class="year">2022</span>
-                           <p class="day">08 / 31 </p>
-                           </div>
-                       </div>
-                            <span class="arrow-wrap">
-                            <div class="c-arrow">
-                            <svg class="circle">
-                            <circle cx="18" cy="18" r="17"></circle>
-                            </svg>
-                            <div class="arrow"></div>
-                            </div>   
-                            </span>
-                    </li>
-                    </a>
-                    
-                    <a href="./events.html" class="print__link">
-                        <li>
-                            <img src="./pic/exhibi-sm1.png" class="print__image" alt="">
-                            <h4>掘光而行：洪瑞麟</h4>
-                            <span class="line1"></span>
-                            <div class="date_box">
-                            <div class="date">
-                            <span class="year">2022</span>
-                            <p class="day">09 / 05 </p>
-                            </div>
-                            <span class="date_line"></span>
-                            <div class="date">
-                            <span class="year">2022</span>
-                            <p class="day">11 / 05 </p>
-                            </div></div>
+                            <p><span>Screen printing</span>網版印刷</p>
+                        </div>
 
-                            <span class="arrow-wrap">
-                                <div class="c-arrow">
-                                <svg class="circle">
-                                <circle cx="18" cy="18" r="17"></circle>
-                                </svg>
-                                <div class="arrow"></div>
-                                </div>   
-                                </span>
-                                
-                        </li></a>
-                   </ul>        
-                  
-                </article>
-            </section>
+                        <div class="enjoy-btn" data-scroll-active="lp">
+                            <img src="./pic/illu1.png">
+                            <p><span>Letterpress</span>凸版印刷</p>
+                        </div>
+                        <div class="enjoy-btn" data-scroll-active="rg">
+                            <img src="./pic/illu3.png">
+                            <p><span>Rotogravure</span>凹版印刷</p>
+                        </div>
+
+                        <div class="enjoy-btn" data-scroll-active="lg">
+                            <img src="./pic/illu.png">
+                            <p><span>lithography</span>平版印刷</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-top-enjoy__layout-rt">
+                <div class="p-top-enjoy__sec" id="sp">
+                    <img src="./pic/print_qa.png" class="qa">
+                    <figure>
+                        <img src="./pic/illu2.png" class="p-ill">
+                        <img src="./pic/md.png">
+                    </figure>
+                    <p>在選好的木塊或金屬的印版上，以刻刀、圓鑿將無圖像的部位刻除，把有圖像且需著色部位保留，再以顏料塗刷或以油墨滾敷在保留的部位，最後經拓擦或壓印於紙表上即可得到一個畫面。</p>
+                    <span class="p-bg"></span>
+                </div>
 
 
-<!------------- part3 ------------->
+                <div class="p-top-enjoy__sec" id="lp">
 
-<section class="part3">
+                    <img src="./pic/print_qa1.png" class="qa">
+                    <figure><img src="./pic/illu1.png" class="p-ill">
+                        <img src="./pic/md.png">
+                    </figure>
+                    <p>在選好的木塊或金屬的印版上，以刻刀、圓鑿將無圖像的部位刻除，把有圖像且需著色部位保留，再以顏料塗刷或以油墨滾敷在保留的部位，最後經拓擦或壓印於紙表上即可得到一個畫面。</p>
+                    <span class="p-bg"></span>
+                </div>
 
-    <div class="part-title3 part-title">
-        <span class="colunme-line"> </span>
-        <span class="row-line"> </span>
-        <h1>WORKSHOP
-        </h1>
-        <h3>工作坊</h3>
+                <div class="p-top-enjoy__sec" id="rg">
+                    <img src="./pic/print_qa2.png" class="qa">
+                    <figure><img src="./pic/illu3.png" class="p-ill">
+                        <img src="./pic/md.png">
+                    </figure>
+                    <p>在選好的木塊或金屬的印版上，以刻刀、圓鑿將無圖像的部位刻除，把有圖像且需著色部位保留，再以顏料塗刷或以油墨滾敷在保留的部位，最後經拓擦或壓印於紙表上即可得到一個畫面。</p>
+                    <span class="p-bg"></span>
+                </div>
+
+                <div class="p-top-enjoy__sec" id="lg">
+                    <img src="./pic/print_qa3.png" class="qa">
+                    <figure><img src="./pic/illu.png" class="p-ill">
+                        <img src="./pic/md.png">
+                    </figure>
+                    <p>在選好的木塊或金屬的印版上，以刻刀、圓鑿將無圖像的部位刻除，把有圖像且需著色部位保留，再以顏料塗刷或以油墨滾敷在保留的部位，最後經拓擦或壓印於紙表上即可得到一個畫面。</p>
+                    <span class="p-bg"></span>
+                </div>
+
+            </div>
         </div>
-        
+    </div>
+
+
+    <!------------- part2 ------------->
+    <div class="p-top-exhibi">
+        <section id="exhibi" class="p-exhibi">
+            <h2 class="o-title js-inview">
+                <span class="en">RECENT EXHIBITION</span>
+                <span class="cn">近期展覽</span>
+                <div class="rect"></div>
+            </h2>
+            <div class="exhibi_content">
+                <div class="exhibi swiper">
+                    <div class="swiper-wrapper" id="swiper-wrapper" aria-live="polite">
+
+                        <div class="swiper-slide">
+                            <a href="./events.html" class="print__link">
+                                <li>
+                                    <img src="./pic/exhibi-sm2.png" alt="" class="print__image">
+                                    <h4> « Plans » 春天個展</h4>
+                                    <span class="line1"></span>
+                                    <div class="date_box">
+                                        <div class="date">
+                                            <span class="year">2022</span>
+                                            <p class="day">05 / 10 </p>
+                                        </div>
+                                        <span class="date_line"></span>
+                                        <div class="date">
+                                            <span class="year">2022</span>
+                                            <p class="day">07 / 17 </p>
+                                        </div>
+                                    </div>
+                                    <span class="arrow-wrap">
+                                        <div class="c-arrow">
+                                            <svg class="circle">
+                                                <circle cx="18" cy="18" r="17"></circle>
+                                            </svg>
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </span>
+                                </li>
+                            </a>
+                        </div>
+                        <div class="swiper-slide"> <a href="./events.html" class="print__link">
+                                <li>
+                                    <img src="./pic/exhibi-sm3.png" alt="" class="print__image">
+                                    <h4>「版繹時代—2022桃園國際版畫展」</h4>
+                                    <span class="line1"></span>
+                                    <div class="date_box">
+                                        <div class="date">
+                                            <span class="year">2022</span>
+                                            <p class="day">06 / 21 </p>
+                                        </div>
+                                        <span class="date_line"></span>
+                                        <div class="date">
+                                            <span class="year">2022</span>
+                                            <p class="day">08 / 31 </p>
+                                        </div>
+                                    </div>
+                                    <span class="arrow-wrap">
+                                        <div class="c-arrow">
+                                            <svg class="circle">
+                                                <circle cx="18" cy="18" r="17"></circle>
+                                            </svg>
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </span>
+                                </li>
+                            </a></div>
+                        <div class="swiper-slide"> <a href="./events.html" class="print__link">
+                                <li>
+                                    <img src="./pic/exhibi-sm1.png" class="print__image" alt="">
+                                    <h4>La Sangre-臺灣與墨西哥版畫交流展</h4>
+                                    <span class="line1"></span>
+                                    <div class="date_box">
+                                        <div class="date">
+                                            <span class="year">2022</span>
+                                            <p class="day">09 / 05 </p>
+                                        </div>
+                                        <span class="date_line"></span>
+                                        <div class="date">
+                                            <span class="year">2022</span>
+                                            <p class="day">11 / 05 </p>
+                                        </div>
+                                    </div>
+                                    <span class="arrow-wrap">
+                                        <div class="c-arrow">
+                                            <svg class="circle">
+                                                <circle cx="18" cy="18" r="17"></circle>
+                                            </svg>
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </span>
+                                </li>
+                            </a></div>
+                        <div class="swiper-slide"> <a href="./events.html" class="print__link">
+                                <li>
+                                    <img src="./pic/exhibi-sm1.png" class="print__image" alt="">
+                                    <h4>La Sangre-臺灣與墨西哥版畫交流展</h4>
+                                    <span class="line1"></span>
+                                    <div class="date_box">
+                                        <div class="date">
+                                            <span class="year">2022</span>
+                                            <p class="day">09 / 05 </p>
+                                        </div>
+                                        <span class="date_line"></span>
+                                        <div class="date">
+                                            <span class="year">2022</span>
+                                            <p class="day">11 / 05 </p>
+                                        </div>
+                                    </div>
+                                    <span class="arrow-wrap">
+                                        <div class="c-arrow">
+                                            <svg class="circle">
+                                                <circle cx="18" cy="18" r="17"></circle>
+                                            </svg>
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </span>
+                                </li>
+                            </a></div>
+
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <!------------- part3 ------------->
+
+
+    <section id="workshop" class="p-workshop l-section">
+        <h2 class="o-title js-inview">
+            <span class="en">WORKSHOP</span>
+            <span class="cn">工作坊</span>
+        </h2>
+        <div class="workshop_content js-inview">
+            <div class="rect"></div>
+        </div>
         <article class="workshop_large">
             <ul>
                 <a href="./workshop.html" class="print__link">
-                <li><img src="./pic/image 5.png" class="print__image" alt="">
-                       <div class="text_frame">
+                    <li><img src="https://cdn01.pinkoi.com/product/iE6AYFBk/14/800x0.jpg" class="print__image" alt="">
+                        <div class="text_frame">
                             <h4>【開放日】古董圓盤機體驗活動</h4>
 
-                       <div class="date_box_row">
-                            <div class="date_box">           
-                            <div class="date">
-                            <span class="year">2022</span>
-                            <p class="day">06 / 12 </p>
-                            </div>
-                            </div>
-                            <span class="date_line"></span>
-                            <div class="date_box">
-                            <div class="date">
-                            <span class="year">2022</span>
-                            <p class="day">06 / 13 </p></div>
-                             </div> <div class="time">9:30 - 11:30</div></div>
-                    
-                    <span class="arrow-wrap">
-                        <div class="c-arrow">
-                        <svg class="circle">
-                        <circle cx="18" cy="18" r="17"></circle>
-                        </svg>
-                        <div class="arrow"></div>
-                        </div>   
-                        </span></li></a>
-
-                        <a href="./workshop.html" class="print__link">
-                            <li><img src="./pic/image 7.png" class="print__image" alt="">
-                                   <div class="text_frame">
-                                        <h4>【小年畫】版畫工作坊</h4>
-            
-                                   <div class="date_box_row">
-                                        <div class="date_box">           
-                                        <div class="date">
-                                        <span class="year">2022</span>
-                                        <p class="day">07 / 18 </p>
-                                        </div>
-                                        </div>
-                                        <span class="date_line"></span>
-                                        <div class="date_box">
-                                        <div class="date">
-                                        <span class="year">2022</span>
-                                        <p class="day">07 / 19 </p></div>
-                                         </div> <div class="time">9:30 - 11:30</div></div>
-                                
-                                <span class="arrow-wrap">
-                                    <div class="c-arrow">
-                                    <svg class="circle">
-                                    <circle cx="18" cy="18" r="17"></circle>
-                                    </svg>
-                                    <div class="arrow"></div>
-                                    </div>   
-                                    </span></li></a>
-
-                                    <a href="./workshop.html" class="print__link">
-                                        <li><img src="./pic/image 6.png" class="print__image" alt="">
-                                               <div class="text_frame">
-                                                    <h4>【冬日印花】版畫工作坊</h4>
-                        
-                                               <div class="date_box_row">
-                                                    <div class="date_box">           
-                                                    <div class="date">
-                                                    <span class="year">2022</span>
-                                                    <p class="day">09 / 18 </p>
-                                                    </div>
-                                                    </div>
-                                                    <span class="date_line"></span>
-                                                    <div class="date_box">
-                                                    <div class="date">
-                                                    <span class="year">2022</span>
-                                                    <p class="day">09 / 21 </p></div>
-                                                     </div> <div class="time">9:30 - 11:30</div></div>
-                                            
-                                            <span class="arrow-wrap">
-                                                <div class="c-arrow">
-                                                <svg class="circle">
-                                                <circle cx="18" cy="18" r="17"></circle>
-                                                </svg>
-                                                <div class="arrow"></div>
-                                                </div>   
-                                                </span></li></a>
-                                       <a href="#" class=" more_btn"> Read  More</a>  
-                    
-                    </ul>
-        </article>   </section>
-
- 
-<!------------------- part4 --------------------->
-
-        <section class="part4">
-
-            <div class="part-title4 part-title">
-                <span class="colunme-line"> </span>
-                <span class="row-line"> </span>
-                <h1>INTERVIEW
-                </h1>
-                <h3>藝術專訪</h3>
-                </div>
-                
-                <article class="interview_large">
-                    
-                    <div class="grid">
-                        <a href="#" class="print__link">
-                            <img src="./pic/itv1.png" class="print__image" alt="">
-                            <h5>老靈魂｜專訪玩印工作室周暐恆</h5>
-                            <span class="interview line1"></span>
-
-                            <div class="date_box-small">
-                                <div class="date">
-                                    <span class="year">2022</span>
-                                    <span class="date_line"></span>
-                                    <p class="">十月</p>
-                                </div>
-                            </div>
-                
-                            <span class="arrow-wrap">
-                                <div class="c-arrow">
-                                <svg class="circle">
-                                <circle cx="18" cy="18" r="17"></circle>
-                                </svg>
-                                <div class="arrow"></div>
-                                </div>   
-                                </span>
-                            </a>
-
-                            <a href="#" class="print__link">
-                            
-                                <img src="./pic/itv2.png" class="print__image" alt="">
-                                <h5>歡迎登陸凹版谷｜專訪台灣積層施黃清  </h5>
-                                <span class="line1"></span>
-    
-                                <div class="date_box-small">
+                            <div class="date_box_row">
+                                <div class="date_box">
                                     <div class="date">
                                         <span class="year">2022</span>
-                                        <span class="date_line"></span>
-                                        <p>九月</p>
-                                       
+                                        <p class="day">06 / 12 </p>
                                     </div>
                                 </div>
-                    
-                                <span class="arrow-wrap">
-                                    <div class="c-arrow">
+                                <span class="date_line"></span>
+                                <div class="date_box">
+                                    <div class="date">
+                                        <span class="year">2022</span>
+                                        <p class="day">06 / 13 </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <span class="arrow-wrap">
+                                <div class="c-arrow">
                                     <svg class="circle">
-                                    <circle cx="18" cy="18" r="17"></circle>
+                                        <circle cx="18" cy="18" r="17"></circle>
                                     </svg>
                                     <div class="arrow"></div>
-                                    </div>   
-                                    </span>
-                                </a>
-                
-                                <a href="#" class="print__link">
-                            
-                                    <img src="./pic/itv3.png" class="print__image" alt="">
-                                    <h5>重生之蝶｜專訪版畫創作者陳宣安 </h5>
-                                    <span class="line1"></span>
-        
-                                    <div class="date_box-small">
-                                        <div class="date">
-                                            <span class="year">2022</span>
-                                            <span class="date_line"></span>
-                                            <p>八月</p>
-                                           
-                                        </div>
+                                </div>
+                            </span>
+                    </li>
+                </a>
+
+                <a href="./workshop.html" class="print__link">
+                    <li><img src="./pic/image 7.png" class="print__image" alt="">
+                        <div class="text_frame">
+                            <h4>【小年畫】版畫工作坊</h4>
+
+                            <div class="date_box_row">
+                                <div class="date_box">
+                                    <div class="date">
+                                        <span class="year">2022</span>
+                                        <p class="day">07 / 18 </p>
                                     </div>
-                        
-                                    <span class="arrow-wrap">
-                                        <div class="c-arrow">
-                                        <svg class="circle">
+                                </div>
+                                <span class="date_line"></span>
+                                <div class="date_box">
+                                    <div class="date">
+                                        <span class="year">2022</span>
+                                        <p class="day">07 / 19 </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <span class="arrow-wrap">
+                                <div class="c-arrow">
+                                    <svg class="circle">
                                         <circle cx="18" cy="18" r="17"></circle>
-                                        </svg>
-                                        <div class="arrow"></div>
-                                        </div>   
-                                        </span>
-                                    </a>
-                
-                                    <a href="#" class="print__link">
-                            
-                                        <img src="./pic/itv4.png" class="print__image" alt="">
-                                        <h5>做印刷就像開熱炒店｜
-                                            <br>專訪達思科網路科技強尼頭
-                                        </h5>
-                                        <span class="line1"></span>
-            
-                                        <div class="date_box-small">
-                                            <div class="date">
-                                                <span class="year">2022</span>
-                                                <span class="date_line"></span>
-                                                <p>七月</p>
-                                               
-                                            </div>
-                                        </div>
-                            
-                                        <span class="arrow-wrap">
-                                            <div class="c-arrow">
-                                            <svg class="circle">
-                                            <circle cx="18" cy="18" r="17"></circle>
-                                            </svg>
-                                            <div class="arrow"></div>
-                                            </div>   
-                                            </span>
-                                        </a>
-                
-                                        <a href="#" class="print__link">
-                            
-                                            <img src="./pic/itv5.png" class="print__image" alt="">
-                                            <h5>孔版印刷與平面設計的交互實驗 ——O.OO設計工作室</h5>
-                                            <span class="line1"></span>
-                
-                                            <div class="date_box-small">
-                                                <div class="date">
-                                                    <span class="year">2022</span>
-                                                    <span class="date_line"></span>
-                                                    <p>六月</p>
-                                                   
-                                                </div>
-                                            </div>
-                                
-                                            <span class="arrow-wrap">
-                                                <div class="c-arrow">
-                                                <svg class="circle">
-                                                <circle cx="18" cy="18" r="17"></circle>
-                                                </svg>
-                                                <div class="arrow"></div>
-                                                </div>   
-                                                </span>
-                                            </a>
-                
-                                            <a href="#" class="print__link">
-                            
-                                                <img src="./pic/itv6.png" class="print__image" alt="">
-                                                <h5>不成為那間消失的印刷廠—專訪樂田活版工房主理人黃宗堂</h5>
-                                                <span class="line1"></span>
-                    
-                                                <div class="date_box-small">
-                                                    <div class="date">
-                                                        <span class="year">2022</span>
-                                                        <span class="date_line"></span>
-                                                        <p>五月</p>
-                                                       
-                                                    </div>
-                                                </div>
-                                    
-                                                <span class="arrow-wrap">
-                                                    <div class="c-arrow">
-                                                    <svg class="circle">
-                                                    <circle cx="18" cy="18" r="17"></circle>
-                                                    </svg>
-                                                    <div class="arrow"></div>
-                                                    </div>   
-                                                    </span>
-                                                </a></div>
-                                        
-                 <a href="#" class=" more_btn"> Read  More</a>  
-                </article></section>
+                                    </svg>
+                                    <div class="arrow"></div>
+                                </div>
+                            </span>
+                    </li>
+                </a>
 
-<!-------------------------part5-------------------->
+                <a href="./workshop.html" class="print__link">
+                    <li><img src="./pic/image 6.png" class="print__image" alt="">
+                        <div class="text_frame">
+                            <h4>【冬日印花】版畫工作坊</h4>
 
-        <section class="part5">
-            <div class="part-title5 part-title">
-                <span class="colunme-line"> </span>
-                <span class="row-line"> </span>
-                <h1>ART SPACE
-                </h1>
-                <h3>藝術家作品與學員作品</h3>
+                            <div class="date_box_row">
+                                <div class="date_box">
+                                    <div class="date">
+                                        <span class="year">2022</span>
+                                        <p class="day">09 / 18 </p>
+                                    </div>
+                                </div>
+                                <span class="date_line"></span>
+                                <div class="date_box">
+                                    <div class="date">
+                                        <span class="year">2022</span>
+                                        <p class="day">09 / 21 </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <span class="arrow-wrap">
+                                <div class="c-arrow">
+                                    <svg class="circle">
+                                        <circle cx="18" cy="18" r="17"></circle>
+                                    </svg>
+                                    <div class="arrow"></div>
+                                </div>
+                            </span>
+                    </li>
+                </a>
+                <a href="#" class=" more_btn"> Read More</a>
+
+            </ul>
+        </article>
+    </section>
+
+
+    <div class="p-top-gallery__content">
+        <div class="p-top-gallery__marquee">
+            <div class="p-top-gallery__marquee-item"><img
+                    src="https://artbank.tfaf.org.tw/files/JPG640/202101420007.jpg">
+            </div>
+            <div class="p-top-gallery__marquee-item"><img
+                    src="https://artbank.tfaf.org.tw/files/JPG640/201600110000.jpg">
+            </div>
+            <div class="p-top-gallery__marquee-item"><img
+                    src="https://artbank.tfaf.org.tw/files/JPG640/202101690006.jpg">
+            </div>
+            <div class="p-top-gallery__marquee-item"><img
+                    src="https://artbank.tfaf.org.tw/files/JPG640/202101930006.jpg">
+            </div>
+            <div class="p-top-gallery__marquee-item"><img
+                    src="https://artbank.tfaf.org.tw/files/JPG640/202101630005.jpg">
+            </div>
+            <div class="p-top-gallery__marquee-item"><img
+                    src="https://artbank.tfaf.org.tw/files/JPG640/202101420007.jpg">
+            </div>
+            <div class="p-top-gallery__marquee-item"><img
+                    src="https://artbank.tfaf.org.tw/files/JPG640/202101690006.jpg">
+            </div>
+            <div class="p-top-gallery__marquee-item"><img
+                    src="https://artbank.tfaf.org.tw/files/JPG640/202101630005.jpg">
+            </div>
+            <div class="p-top-gallery__marquee-item"><img
+                    src="https://artbank.tfaf.org.tw/files/JPG640/202101630005.jpg">
+            </div>
+        </div>
+    </div>
+    <!------------------- part4 --------------------->
+
+
+    <section id="interview" class="p-interview l-section">
+        <h2 class="o-title js-inview">
+            <span class="en">INTERVIEW</span>
+            <span class="cn">藝術專訪</span>
+        </h2>
+        <div class="interview_content js-inview">
+            <div class="rect"></div>
+            <p>談論印刷與人的專訪雜誌</p>
+        </div>
+    </section>
+    <article class="interview_large">
+
+        <div class="grid">
+            <a href="#" class="print__link">
+                <img src="./pic/itv1.png" class="print__image" alt="">
+                <h5>老靈魂｜專訪玩印工作室周暐恆</h5>
+                <span class="interview line1"></span>
+
+                <div class="date_box-small">
+                    <div class="date">
+                        <span class="year">2022</span>
+                        <span class="date_line"></span>
+                        <p class="">十月</p>
+                    </div>
                 </div>
-                
-                <article class="artspace_large">
 
-                    <ul class="artspace">
-                        <a href="#" class="artspace__link"> <img src="./pic/artspace4.png" alt="" class="print__image"></a>
+                <span class="arrow-wrap">
+                    <div class="c-arrow">
+                        <svg class="circle">
+                            <circle cx="18" cy="18" r="17"></circle>
+                        </svg>
+                        <div class="arrow"></div>
+                    </div>
+                </span>
+            </a>
 
-                        <a href="#" class="artspace__link"> <img src="./pic/artspace.png" alt=""  class="print__image"></a>
+            <a href="#" class="print__link">
 
-                        <a href="#" class="artspace__link"> <img src="./pic/artspace2.png" alt=""  class="print__image"></a>
+                <img src="./pic/itv2.png" class="print__image" alt="">
+                <h5>歡迎登陸凹版谷｜專訪台灣積層施黃清 </h5>
+                <span class="line1"></span>
 
-                        <a href="#" class="artspace__link"> <img src="./pic/artspace3.png" alt="" class="print__image"></a>
-                    
-                    </ul>
-                </article>
-                <a href="#" class=" more_btn"> Read  More</a>  
+                <div class="date_box-small">
+                    <div class="date">
+                        <span class="year">2022</span>
+                        <span class="date_line"></span>
+                        <p>九月</p>
 
-        </section>
-<!-- 
-     
-  -->
-<article class="footer"><img src="./pic/footer.png" alt="" class="artspace"></article>
+                    </div>
+                </div>
+
+                <span class="arrow-wrap">
+                    <div class="c-arrow">
+                        <svg class="circle">
+                            <circle cx="18" cy="18" r="17"></circle>
+                        </svg>
+                        <div class="arrow"></div>
+                    </div>
+                </span>
+            </a>
+
+            <a href="#" class="print__link">
+
+                <img src="./pic/itv3.png" class="print__image" alt="">
+                <h5>重生之蝶｜專訪版畫創作者陳宣安 </h5>
+                <span class="line1"></span>
+
+                <div class="date_box-small">
+                    <div class="date">
+                        <span class="year">2022</span>
+                        <span class="date_line"></span>
+                        <p>八月</p>
+
+                    </div>
+                </div>
+
+                <span class="arrow-wrap">
+                    <div class="c-arrow">
+                        <svg class="circle">
+                            <circle cx="18" cy="18" r="17"></circle>
+                        </svg>
+                        <div class="arrow"></div>
+                    </div>
+                </span>
+            </a>
+
+            <a href="#" class="print__link">
+
+                <img src="./pic/itv4.png" class="print__image" alt="">
+                <h5>做印刷就像開熱炒店｜
+                專訪達思科網路科技強尼頭
+                </h5>
+                <span class="line1"></span>
+
+                <div class="date_box-small">
+                    <div class="date">
+                        <span class="year">2022</span>
+                        <span class="date_line"></span>
+                        <p>七月</p>
+
+                    </div>
+                </div>
+
+                <span class="arrow-wrap">
+                    <div class="c-arrow">
+                        <svg class="circle">
+                            <circle cx="18" cy="18" r="17"></circle>
+                        </svg>
+                        <div class="arrow"></div>
+                    </div>
+                </span>
+            </a>
+
+            <a href="#" class="print__link">
+
+                <img src="./pic/itv5.png" class="print__image" alt="">
+                <h5>孔版印刷與平面設計的交互實驗——O.OO設計工作室</h5>
+                <span class="line1"></span>
+
+                <div class="date_box-small">
+                    <div class="date">
+                        <span class="year">2022</span>
+                        <span class="date_line"></span>
+                        <p>六月</p>
+
+                    </div>
+                </div>
+
+                <span class="arrow-wrap">
+                    <div class="c-arrow">
+                        <svg class="circle">
+                            <circle cx="18" cy="18" r="17"></circle>
+                        </svg>
+                        <div class="arrow"></div>
+                    </div>
+                </span>
+            </a>
+
+            <a href="#" class="print__link">
+
+                <img src="./pic/itv6.png" class="print__image" alt="">
+                <h5>不成為那間消失的印刷廠——專訪樂田活版工房主理人黃宗堂</h5>
+                <span class="line1"></span>
+
+                <div class="date_box-small">
+                    <div class="date">
+                        <span class="year">2022</span>
+                        <span class="date_line"></span>
+                        <p>五月</p>
+
+                    </div>
+                </div>
+
+                <span class="arrow-wrap">
+                    <div class="c-arrow">
+                        <svg class="circle">
+                            <circle cx="18" cy="18" r="17"></circle>
+                        </svg>
+                        <div class="arrow"></div>
+                    </div>
+                </span>
+            </a>
+        </div>
+        <a href="#" class=" more_btn"> Read More</a>
+    </article>
+    </section>
+    <!-- -->
 
 
 
+    <!-------------------------part5-------------------->
+
+    <div class="p-top-products js-products">
+        <div class="p-top-products__inner">
+            <div class="p-top-products__content">
+                <section id="products_title" class="p-products l-section">
+                    <h2 class="o-title js-inview">
+                        <span class="en">PRODUCTS</span>
+                        <span class="cn">商品一覽</span>
+                        <div class="rect"></div>
+
+                    </h2>
+                </section>
+                <div class="swiper js-products-slider">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-bg">
+                                <div></div>
+                            </div>
+                            <a class="c-products" href="./store-product.html">
+                                <figure class="c-products__pic"><img
+                                        src="https://cdn01.pinkoi.com/product/LZU4GcXp/0/1/800x0.jpg"></figure>
+                                <h4 class="c-products__name">汪星球】明信片</h4>
+                                <p class="c-products__price"><strong>3,888</strong>元</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-bg">
+                                <div></div>
+                            </div>
+                            <a class="c-products" href="./store-product.html">
+                                <figure class="c-products__pic"><img
+                                        src="https://cdn01.pinkoi.com/product/FANHqqgb/0/1/800x0.jpg"></figure>
+                                <h4 class="c-products__name">【木口木刻版畫】Green Island 綠島 綠蠵龜/海洋</h4>
+                                <p class="c-products__price"><strong>1,080</strong>元</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-bg">
+                                <div></div>
+                            </div>
+                            <a class="c-products" href="./store-product.html">
+                                <figure class="c-products__pic"><img
+                                        src="https://cdn01.pinkoi.com/product/3AQsD2dE/0/1/800x0.jpg">
+                                </figure>
+                                <h4 class="c-products__name">【綠蠵龜明信片】手工木刻版畫 綠蠵龜與潛水教練的相遇</h4>
+                                <p class="c-products__price"><strong>66,000</strong>元</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-bg">
+                                <div></div>
+                            </div>
+                            <a class="c-products" href="./store-product.html">
+                                <figure class="c-products__pic"><img
+                                        src="https://cdn01.pinkoi.com/product/qqKQ8AsT/0/1/800x0.jpg">
+                                </figure>
+                                <h4 class="c-products__name">【聖誕禮物】Christmas tree - 木刻版畫/手工印刷</h4>
+                                <p class="c-products__price"><strong>1,850</strong>元</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-bg">
+                                <div></div>
+                            </div>
+                            <a class="c-products" href="./store-product.html">
+                                <figure class="c-products__pic"><img
+                                        src="https://cdn01.pinkoi.com/product/5XYU84ud/0/1/800x0.jpg">
+                                </figure>
+                                <h4 class="c-products__name">
+                                    【木刻版畫】聖誕老公公深夜加班中 - 木刻版畫/手工印刷</h4>
+                                <p class="c-products__price"><strong>1,100</strong>元</p>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-bg">
+                                <div></div>
+                            </div>
+                            <a class="c-products" href="./store-product.html">
+                                <figure class="c-products__pic"><img
+                                        src="https://cdn01.pinkoi.com/product/RGzjkb2y/0/1/800x0.jpg">
+                                </figure>
+                                <h4 class="c-products__name">【木口木刻版畫】The island on bird street</h4>
+                                <p class="c-products__price"><strong>620</strong>元</p>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-bg">
+                                <div></div>
+                            </div>
+                            <a class="c-products" href="./store-product.html">
+                                <figure class="c-products__pic"><img
+                                        src="https://cdn01.pinkoi.com/product/3AQsD2dE/0/1/800x0.jpg">
+                                </figure>
+                                <h4 class="c-products__name">【木口木刻版畫】Flower blooms again</h4>
+                                <p class="c-products__price"><strong>1,320</strong>元</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-bg">
+                                <div></div>
+                            </div>
+                            <a class="c-products" href="./store-product.html">
+                                <figure class="c-products__pic"><img
+                                        src="https://cdn01.pinkoi.com/product/RGzjkb2y/0/1/800x0.jpg">
+                                </figure>
+                                <h4 class="c-products__name">【綠蠵龜明信片】手工木刻版畫浮水印</h4>
+                                <p class="c-products__price"><strong>1,320</strong>元</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-bg">
+                                <div></div>
+                            </div>
+                            <a class="c-products" href="./store-product.html">
+                                <figure class="c-products__pic"><img
+                                        src="https://cdn01.pinkoi.com/product/LZU4GcXp/0/1/800x0.jpg">
+                                </figure>
+                                <h4 class="c-products__name">【爪哇鹿角蕨帆布包 】 限量手印木刻版畫 漸層色 托特包</h4>
+                                <p class="c-products__price"><strong>1,100</strong>元</p>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-bg">
+                                <div></div>
+                            </div>
+                            <a class="c-products" href="./store-product.html">
+                                <figure class="c-products__pic"><img
+                                        src="	https://cdn01.pinkoi.com/product/RGzjkb2y/0/1/800x0.jpg">
+                                </figure>
+                                <h4 class="c-products__name">【鹿角蕨明信片 】一套16款</h4>
+                                <p class="c-products__price"><strong>3,888</strong>元</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-bg">
+                                <div></div>
+                            </div>
+                            <a class="c-products" href="./store-product.html">
+                                <figure class="c-products__pic"><img
+                                        src="	https://cdn01.pinkoi.com/product/RGzjkb2y/0/1/800x0.jpg">
+                                </figure>
+                                <h4 class="c-products__name">【鹿角蕨明信片 】一套16款</h4>
+                                <p class="c-products__price"><strong>3,888</strong>元</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="swiper-pagination"><span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span></button>
+
+                <button class="swiper-button-next"></button>
+
+                <div class="swiper-button-prev"></div>
+
+                <span class="swiper-notification"></span>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- menu -->
+    <nav class="l-menu">
+        <div class="menu_overlay"></div>
+        <div class="menu_content">
+            <ul class="menu_list">
+                <li><a href="./index.html">
+                        <span class="en">ABOUT<i class="ico"></i></span>
+                        <span class="cn">探索版畫</span>
+                    </a></li>
+                <li><a href="#">
+                        <span class="en">ART SPACE<i class="ico"></i></span>
+                        <span class="cn">藝術空間</span>
+                    </a></li>
+                <li><a href="./events.html">
+                        <span class="en">EXHIBITION<i class="ico"></i></span>
+                        <span class="cn">展覽課程</span>
+                    </a></li>
+                <li><a href="#">
+                        <span class="en">INTERVIEW<i class="ico"></i></span>
+                        <span class="cn">藝術專訪</span>
+                    </a></li>
+                <li><a href="./store.html">
+                        <span class="en">ART STORE<i class="ico"></i></span>
+                        <span class="cn">版藝商店</span>
+                    </a></li>
+
+                <li><a href="#">
+                        <span class="en">ART STORE<i class="ico"></i></span>
+                        <span class="cn">會員中心</span>
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
 
 
+<!-- footer -->
+
+    <footer id="footer" class="l-footer">
+        <h1 class="l-footer__logo"><img src="./pic/logo_s.png" alt="版藝象"></h1>
+        <nav class="l-footer__nav">
+            <a href="#">探索版畫</a>
+            <a href="#">藝術空間</a>
+            <a href="#">展覽課程</a>
+            <a href="#">藝術專訪</a>
+            <a href="#">版藝商店</a>
+            <a href="#">會員中心</a>
+        </nav>
+        <div class="l-footer__pagetop js-pagetop"><span></span>PAGE TOP</div>
+        <div class="l-footer__credit">
+            <div class="l-footer__credit-ltWrap">
+                <ul class="l-footer__credit-sns">
+                    <li class="l-footer__credit-sns--facebook"><a href="https://facebook.com/" target="_blank"><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                            </svg></a></li>
+                    <li class="l-footer__credit-sns--instagram"><a href="https://www.instagram.com/"
+                            target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                            </svg></a></li>
+                </ul>
+            </div>
+            <div class="l-footer__credit-gt">
+                <p> © ART PRINT. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
 
+    <!--  -->
+    <script src="./js/scroll-active.js"></script>
+    <script src="./js/flickity.pkgd.min.js" defer=""></script>
+    <script src="./js/in-view.min.js" defer=""></script>
+    <script src="./js/script.js" defer=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
 
-            
-        
-
-
-
-
-    
 </body>
